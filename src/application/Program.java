@@ -60,7 +60,7 @@ public class Program {
 		
 		System.out.println("Nome: " + funcionario.getName());
 		System.out.println("Departamento: " + funcionario.getDepartamento().getDepartamento());
-		System.out.print("Income for " +mesEAno + ": " + String.format("%.2f", funcionario.income(ano, mes)));
+		System.out.print("Renda de " +mesEAno + ": " + String.format("%.2f", funcionario.income(ano, mes)));
 	}
 
 }
